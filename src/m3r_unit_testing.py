@@ -3,33 +3,31 @@ This module helps you understand:
   -- UNIT TESTING.
   -- the difference between PRINT and RETURN
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
+         Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
+         Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
+         Claude Anderson, Michael Wollowski, Chandan Rupakheti,
+         Derek Whitley, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-###############################################################################
-# TODO: 2.  If you have not already done so:
-#   Allow this module to use the  rosegraphics.py  module by marking the
-#     src
-#   folder in this project as a "Sources Root", as follows:
-#     ____
-#     In the Project window (to the left), right click on the src  folder,
-#     then select  Mark Directory As  ~  Sources Root.
-###############################################################################
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
+
 
 import rosegraphics as rg
 import math
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_distance()
 
 
 def run_test_distance():
-    """ Tests the distance function by using 3 tests. """
+    """Tests the distance function by using 3 tests."""
     # Test 1:
     expected = math.sqrt(2)
     answer = distance(rg.Point(1, 1))
@@ -73,7 +71,7 @@ def distance(point):
 main()
 
 ###############################################################################
-# TODO: 3.
+# TODO: 2.
 #   READ the following, asking questions as needed.
 #   When you believe that you understand what is says about UNIT TESTING,
 #   mark the above _TODO_ as DONE.
