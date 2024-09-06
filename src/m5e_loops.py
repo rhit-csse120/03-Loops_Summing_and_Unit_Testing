@@ -18,14 +18,14 @@ Authors: Many, many people over many, many years.
 
 
 def main():
-    """ Calls the other functions to demonstrate and/or test them. """
+    """Calls the other functions to demonstrate and/or test them."""
     example1()
     example2()
     example3()
 
 
 def example1():
-    """ Prints a message, then   0  1  2  3  ... 7. """
+    """Prints a message, then   0  1  2  3  ... 7."""
     print()
     print("--------------------------------------------------")
     print("Running example1:")
@@ -35,7 +35,7 @@ def example1():
 
 
 def example2():
-    """ Prints a message, then  0  5  10  15  20 ... 50. """
+    """Prints a message, then  0  5  10  15  20 ... 50."""
     print()
     print("--------------------------------------------------")
     print("Running example2:")
@@ -45,7 +45,7 @@ def example2():
 
 
 def example3():
-    """ Prints a message, then  1  4  7  10  13  16. """
+    """Prints a message, then  1  4  7  10  13  16."""
     print()
     print("--------------------------------------------------")
     print("Running example3:")

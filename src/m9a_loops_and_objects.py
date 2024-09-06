@@ -34,7 +34,7 @@ import rosegraphics as rg
 
 
 def main():
-    """ Calls the other functions to demonstrate and/or test them. """
+    """Calls the other functions to demonstrate and/or test them."""
     # Test your functions by putting calls to them here:
 
 
@@ -55,9 +55,9 @@ def print_sequence1():
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
     print()
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
     print("Running print_sequence1:")
-    print('--------------------------------------------------')
+    print("--------------------------------------------------")
 
 
 def draw_circles1():
@@ -122,7 +122,7 @@ def draw_circles2():
     # -------------------------------------------------------------------------
     print()
     print("--------------------------------------------------")
-    print('Running draw_circles2:  See graphics window')
+    print("Running draw_circles2:  See graphics window")
     print("--------------------------------------------------")
 
 
@@ -131,7 +131,7 @@ def print_sequence3():
     Prints:
       1
       2
-      3 
+      3
       4
       ...
       100.
@@ -163,7 +163,7 @@ def draw_circles3():
     # -------------------------------------------------------------------------
     print()
     print("--------------------------------------------------")
-    print('Running draw_circles3:  See graphics window')
+    print("Running draw_circles3:  See graphics window")
     print("--------------------------------------------------")
 
 

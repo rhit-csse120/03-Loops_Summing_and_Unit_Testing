@@ -29,13 +29,13 @@ Academic Integrity: I got help on this module from:
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_sum_powers()
     run_test_sum_powers_in_range()
 
 
 def run_test_sum_powers():
-    """ Tests the   sum_powers   function. """
+    """Tests the   sum_powers   function."""
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this function.
     #   It TESTS the  sum_powers  function defined below.
@@ -76,7 +76,7 @@ def sum_powers(n, p):
 
 
 def run_test_sum_powers_in_range():
-    """ Tests the   sum_powers_in_range   function. """
+    """Tests the   sum_powers_in_range   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this function.
     #   It TESTS the  sum_powers_in_range  function defined below.

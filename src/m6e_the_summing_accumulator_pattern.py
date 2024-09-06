@@ -8,6 +8,7 @@ Authors: Many, many people over many, many years.
          Claude Anderson, Michael Wollowski, Chandan Rupakheti,
          Derek Whitley, Curt Clifton, Valerie Galluzzi, and their colleagues.
 """
+
 # -----------------------------------------------------------------------------
 # Students: Read and run this program.  Just use it as an example.
 #
@@ -16,12 +17,12 @@ Authors: Many, many people over many, many years.
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_sum_squares()
 
 
 def run_test_sum_squares():
-    """ Tests the   sum_squares   function. """
+    """Tests the   sum_squares   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   sum_squares   function:")

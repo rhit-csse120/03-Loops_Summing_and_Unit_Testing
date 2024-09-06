@@ -23,7 +23,7 @@ import m4t_tester
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_sum_of_digits()
     run_test_digits_in_cube()
     run_test_digits_in_power()
@@ -45,7 +45,7 @@ def main():
 
 
 def run_test_sum_of_digits():
-    """ Tests the  sum_of_digits   function. """
+    """Tests the  sum_of_digits   function."""
     # -------------------------------------------------------------------------
     # TODO: 2. Implement this TEST function, as follows:
     #  ___
@@ -120,7 +120,7 @@ def sum_of_digits(number):
 
 
 def run_test_digits_in_cube():
-    """ Tests the   digits_in_cube   function. """
+    """Tests the   digits_in_cube   function."""
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this function.
     #   It TESTS the  digits_in_cube  function defined below.
@@ -172,7 +172,7 @@ def digits_in_cube(n):
 
 
 def run_test_digits_in_power():
-    """ Tests the   digits_in_power   function. """
+    """Tests the   digits_in_power   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this function.
     #   It TESTS the  digits_in_power  function defined below.
@@ -211,7 +211,7 @@ def digits_in_power(n, k):
 
 
 def run_test_fancy_sums_of_digits():
-    """ Tests the   fancy_sums_of_digits   function. """
+    """Tests the   fancy_sums_of_digits   function."""
     # -------------------------------------------------------------------------
     # TODO: 7. Implement this function.
     #   It TESTS the  fancy_sums_of_digits  function defined below.

@@ -29,13 +29,13 @@ Academic Integrity: I got help on this module from:
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     run_test_sum_cosines()
     run_test_sum_square_roots()
 
 
 def run_test_sum_cosines():
-    """ Tests the   sum_cosines   function. """
+    """Tests the   sum_cosines   function."""
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this function.
     #   It TESTS the  sum_cosines  function defined below.
@@ -74,7 +74,7 @@ def sum_cosines(n):
 
 
 def run_test_sum_square_roots():
-    """ Tests the   sum_square_roots   function. """
+    """Tests the   sum_square_roots   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this function.
     #   It TESTS the  sum_square_roots  function defined below.
