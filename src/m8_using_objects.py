@@ -193,24 +193,6 @@ def plus_sign(circle, color, thickness, window):
     # TODO: 5. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    circle.attach_to(window)
-    line1 = rg.Line(
-        rg.Point(circle.center.x - circle.radius, circle.center.y),
-        rg.Point(circle.center.x + circle.radius, circle.center.y),
-    )
-    line1.color = color
-    line1.thickness = thickness
-    line1.attach_to(window)
-
-    line2 = rg.Line(
-        rg.Point(circle.center.x, circle.center.y - circle.radius),
-        rg.Point(circle.center.x, circle.center.y + circle.radius),
-    )
-    line2.color = circle.outline_color
-    line2.thickness = circle.outline_thickness
-    line2.attach_to(window)
-
-    window.render()
 
 
 # -----------------------------------------------------------------------------
