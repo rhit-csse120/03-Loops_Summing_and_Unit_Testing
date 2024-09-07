@@ -22,7 +22,10 @@ import rosegraphics as rg
 
 def main():
     """Calls the other functions to demonstrate and/or test them."""
-    # Test your functions by putting calls to them here:
+    two_circles()
+    lines()
+    circle_and_rectangle()
+    run_test_plus_sign()
 
 
 def two_circles():
@@ -39,7 +42,7 @@ def two_circles():
     # TODO: 2. Implement this function, per its green doc-string above.
     #     -- ANY two rg.Circle objects that meet the criteria are fine.
     #     -- File  COLORS.txt  lists all legal color-names.
-    #   Put a statement in   main   to test this function
+    #   There is already a statement in   main   to test this function
     #    (by calling this function).
     #   HINT: Module  m2r_using_rosegraphics  has helpful examples for this.
     # -------------------------------------------------------------------------
@@ -70,7 +73,7 @@ def lines():
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this function, per its green doc-string above.
     #    -- ANY lines that meet the criteria are fine.
-    #  Put a statement in   main   to test this function
+    #   There is already a statement in   main   to test this function
     #    (by calling this function).
     #   HINT: Module  m2r_using_rosegraphics  has helpful examples for this.
     #  ___
@@ -114,13 +117,100 @@ def circle_and_rectangle():
     # -------------------------------------------------------------------------
     # TODO: 4. Implement this function, per its green doc-string above.
     #    -- ANY objects that meet the criteria are fine.
-    #  Put a statement in   main   to test this function
+    #   There is already a statement in   main   to test this function
     #    (by calling this function).
     #   HINT: Module  m2r_using_rosegraphics  has helpful examples for this.
     #  ___
     #  IMPORTANT: Use the DOT TRICK to guess the names of the relevant
     #       instance variables for outline thickness, etc.
     # -------------------------------------------------------------------------
+
+
+def run_test_plus_sign():
+    """Tests the   plus_sign  function."""
+    print()
+    print("--------------------------------------------------")
+    print("Testing the  plus_sign  function:")
+    print("  See the graphics windows that pop up.")
+    print("--------------------------------------------------")
+
+    # TWO tests on ONE window.
+    title = "Tests 1 & 2 of plus_sign"
+    window = rg.RoseWindow(450, 250, title)
+
+    circle = rg.Circle(rg.Point(100, 50), 30)
+    circle.outline_color = "green"
+    circle.fill_color = "blue"
+    circle.outline_thickness = 10
+    plus_sign(circle, "red", 5, window)  # Run the code to be tested
+    window.continue_on_mouse_click()
+
+    circle = rg.Circle(rg.Point(300, 100), 50)
+    plus_sign(circle, "blue", 8, window)  # Run the code to be tested
+    window.close_on_mouse_click()
+
+    # A third test on ANOTHER window.
+    title = "Test 3 of plus_sign"
+    window = rg.RoseWindow(400, 300, title)
+
+    circle = rg.Circle(rg.Point(200, 150), 100)
+    circle.outline_color = "yellow"
+    circle.fill_color = "black"
+    circle.outline_thickness = 7
+    plus_sign(circle, "blue", 20, window)  # Run the code to be tested
+    window.close_on_mouse_click()
+
+
+def plus_sign(circle, color, thickness, window):
+    """
+    See   plus_sign_picture.pdf   in this project for pictures
+    that may help you better understand the following specification:
+
+    What comes in:
+      -- An rg.Circle.
+      -- A color suitable for RoseGraphics.
+      -- A positive integer suitable as a thickness.
+      -- An rg.RoseWindow.
+    What goes out:  Nothing (i.e., None).
+    Side effects:
+      -- Draws the given rg.Circle on the given rg.RoseWindow
+      -- Then draws an rg.Line from the leftmost point of the given rg.Circle
+           to the rightmost point of the given rg.Circle,
+           with color the given color and thickness the given thickness.
+      -- Then draws an rg.Line from the topmost point of the given rg.Circle
+           to the bottommost point of the given rg.Circle,
+           with color the outline color of the given rg.Circle
+           and thickness the outline thickness of the given rg.Circle.
+      Must  render but ** NOT close **   the window.
+
+    Type hints:
+      :type circle:    rg.Circle
+      :type color:     str
+      :type thickness: int
+      :type window:    rg.RoseWindow
+    """
+    # -------------------------------------------------------------------------
+    # TODO: 5. Implement and test this function.
+    #          Tests have been written for you (above).
+    # -------------------------------------------------------------------------
+    circle.attach_to(window)
+    line1 = rg.Line(
+        rg.Point(circle.center.x - circle.radius, circle.center.y),
+        rg.Point(circle.center.x + circle.radius, circle.center.y),
+    )
+    line1.color = color
+    line1.thickness = thickness
+    line1.attach_to(window)
+
+    line2 = rg.Line(
+        rg.Point(circle.center.x, circle.center.y - circle.radius),
+        rg.Point(circle.center.x, circle.center.y + circle.radius),
+    )
+    line2.color = circle.outline_color
+    line2.thickness = circle.outline_thickness
+    line2.attach_to(window)
+
+    window.render()
 
 
 # -----------------------------------------------------------------------------
