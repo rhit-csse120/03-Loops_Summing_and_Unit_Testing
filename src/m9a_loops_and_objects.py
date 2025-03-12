@@ -22,7 +22,7 @@ import rosegraphics as rg
 
 
 ###############################################################################
-# TODO: Read the following, then change its _TODO_ to DONE.
+# TODO: 2. Read the following, then change its _TODO_ to DONE.
 #   Throughout these exercises, you must use  RANGE  statements.
 #   At this point of the course, you are restricted to the SINGLE-ARGUMENT
 #   form of RANGE statements, like this:
@@ -50,7 +50,7 @@ def print_sequence1():
        200
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement this function, per its doc-string above.
+    # TODO: 3. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
@@ -70,7 +70,7 @@ def draw_circles1():
     See   CIRCLES.pdf  in this project for a picture of the correct drawing.
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement this function, per its doc-string above.
+    # TODO: 4. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     #   HINT: Module  m2r_using_rosegraphics  has helpful examples for this.
@@ -93,7 +93,7 @@ def print_sequence2():
       390.
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement this function, per its doc-string above.
+    # TODO: 5. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
@@ -115,7 +115,7 @@ def draw_circles2():
     See   CIRCLES.pdf  in this project for a picture of the correct drawing.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement this function, per its doc-string above.
+    # TODO: 6. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     #   HINT: Module  m2r_using_rosegraphics  has helpful examples for this.
@@ -137,7 +137,7 @@ def print_sequence3():
       100.
     """
     # -------------------------------------------------------------------------
-    # TODO: 6. Implement this function, per its doc-string above.
+    # TODO: 7. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
@@ -157,7 +157,7 @@ def draw_circles3():
     See   CIRCLES.pdf  in this project for a picture of the correct drawing.
     """
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement this function, per its doc-string above.
+    # TODO: 8. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
@@ -186,7 +186,7 @@ def print_cosines():
        68.9855097830147
     """
     # -------------------------------------------------------------------------
-    # TODO: 8. Implement this function, per its doc-string above.
+    # TODO: 9. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     #  _
@@ -219,7 +219,7 @@ def draw_cosines_and_sines():
     See   CIRCLES.pdf  in this project for a picture of the correct drawing.
     """
     # -------------------------------------------------------------------------
-    # TODO: 9. Implement this function, per its doc-string above.
+    # TODO: 10. Implement this function, per its doc-string above.
     #   Put a statement in  main  to test this function.
     #   REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # -------------------------------------------------------------------------
