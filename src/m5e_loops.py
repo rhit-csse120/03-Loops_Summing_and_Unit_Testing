@@ -56,5 +56,7 @@ def example3():
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
+# This unusual form is necessary for the special testing we provided.
 # -----------------------------------------------------------------------------
-main()
+if __name__ == "__main__":
+    main()

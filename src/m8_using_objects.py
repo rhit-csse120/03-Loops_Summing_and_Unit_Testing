@@ -197,5 +197,7 @@ def plus_sign(circle, color, thickness, window):
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
+# This unusual form is necessary for the special testing we provided.
 # -----------------------------------------------------------------------------
-main()
+if __name__ == "__main__":
+    main()
